@@ -1,6 +1,6 @@
 const inquierer = require('inquirer');
 const fs = require('fs');
-const shapes = require('./lib/shapes');
+const shapes = require('./lib/generateSVG');
 
 // Created an array of questions for the user input
 const questions = [
@@ -27,8 +27,8 @@ const questions = [
 ];
 
 // Created a function to write SVG file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => {
+function writeToFile(data) {
+    fs.writeFile('logo.svg', data, (err) => {
         if (err) {
             console.log(err);
         }
