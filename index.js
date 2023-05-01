@@ -15,7 +15,7 @@ const questions = [
         message: 'Please enter your logo color: ',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'logoShape',
         choices: ['circle', 'square', 'triangle'],
     },
