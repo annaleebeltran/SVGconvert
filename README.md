@@ -1,7 +1,7 @@
 # SVGconvert
 
 # Description
-SVGConvert wil;l allow the user to create a logo using the command line. The user will be prompted to enter text, text color, and shape. The user will be able to choose from a circle, triangle, or square. The user will also be able to choose the color of the shape. Once the user has entered all the information, an SVG file will be created named logo.svg. The user will be able to open the logo.svg file in a browser and see the logo they created.
+SVGConvert will allow the user to create a logo using the command line. The user will be prompted to enter text, text color, and shape. The user will be able to choose from a circle, triangle, or square. The user will also be able to choose the color of the shape. Once the user has entered all the information, an SVG file will be created named logo.svg. The user will be able to open the logo.svg file in a browser and see the logo they created.
 
 # User Story
 * AS a freelance web developer
@@ -25,6 +25,8 @@ SVGConvert wil;l allow the user to create a logo using the command line. The use
 * THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 # Usage
+This application requires the following npm packages:
+* Inquirer
 
 ![alt text](./examples/svgexample.png)
 
