@@ -17,7 +17,7 @@ const questions = [
     {
         type: 'list',
         name: 'logoShape',
-        choices: ['circle', 'square', 'triangle'],
+        choices: ['Circle', 'Square', 'Triangle'],
     },
     {
         type: 'input',
@@ -41,7 +41,7 @@ function writeToFile(data) {
 function init() {
     inquierer.prompt(questions)
         .then((data) => {
-            writeToFile('logo.svg', shapes(data));
+            writeToFile(shapes(data));
         });
 
 }
